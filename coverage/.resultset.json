@@ -1,6 +1,18 @@
 {
   "RSpec": {
     "coverage": {
+      "/root/cs3300/app/helpers/application_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/root/cs3300/app/helpers/projects_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
       "/root/cs3300/app/controllers/projects_controller.rb": {
         "lines": [
           1,
@@ -123,22 +135,6 @@
         "branches": {
         }
       },
-      "/root/cs3300/app/helpers/application_helper.rb": {
-        "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/root/cs3300/app/helpers/projects_helper.rb": {
-        "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
       "/root/cs3300/app/mailers/application_mailer.rb": {
         "lines": [
           0,
@@ -150,6 +146,6 @@
         }
       }
     },
-    "timestamp": 1636050586
+    "timestamp": 1636052538
   }
 }
