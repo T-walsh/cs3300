@@ -93,11 +93,4 @@ RSpec.configure do |config|
   # as the one that triggered the failure.
   Kernel.srand config.seed
 =end
-require "rails_helper"
-
-RSpec.describe "The math below is wrong..." do
-  it "should equal 42 but we said 43" do
-    expect(6 * 7).to eq(43)
-  end
-end
 end
