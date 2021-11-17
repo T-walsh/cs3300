@@ -1,4 +1,7 @@
 require "rails_helper"
+
+
+
 #Controller rspec for the projects
 RSpec.describe ProjectsController, type: :controller do
   context "GET #index" do #gets index and if there is any response then this test passes
