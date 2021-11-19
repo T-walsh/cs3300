@@ -33,8 +33,6 @@
       "/root/cs3300/app/controllers/projects_controller.rb": {
         "lines": [
           1,
-          1,
-          1,
           null,
           null,
           1,
@@ -107,6 +105,8 @@
       "/root/cs3300/app/controllers/application_controller.rb": {
         "lines": [
           1,
+          1,
+          1,
           null
         ]
       },
@@ -148,6 +148,7 @@
       "/root/cs3300/app/models/article.rb": {
         "lines": [
           0,
+          0,
           0
         ],
         "branches": {
@@ -164,6 +165,6 @@
         }
       }
     },
-    "timestamp": 1637180725
+    "timestamp": 1637354241
   }
 }

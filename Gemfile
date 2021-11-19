@@ -45,6 +45,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
+  gem 'rspec-rails', '~> 3.7'
 end
 
 group :development do
@@ -70,12 +71,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'mini_racer'
-  
-  group :development, :test do
-    gem 'rspec-rails', '~> 3.7'
-    #%w[rspec-core rspec-expectations rspec-mocks rspec-rails rspec-support].each do |lib|
-    #  gem lib, git: "https://github.com/rspec/#{lib}.git", branch: 'main' # Previously '4-0-dev' or '4-0-maintenance' branch
-    #end
-  end
 
 gem 'devise'
