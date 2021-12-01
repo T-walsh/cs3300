@@ -2,6 +2,7 @@ require "rails_helper"
 
 RSpec.describe Project, type: :model do
   context "validations tests" do #validates the presence of an entity
+    let(:user) {login_user}
     it "ensures the title is present" do
       project = Project.new(description: "Content of the description")
       expect(project.valid?).to eq(false) #if no content in title, this test would succeed if there is an

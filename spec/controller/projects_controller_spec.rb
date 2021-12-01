@@ -2,7 +2,6 @@ require "rails_helper"
 
 #Controller rspec for the projects
 RSpec.describe ProjectsController, type: :controller do
-  login_user
   context "GET #index" do #gets index and if there is any response then this test passes
   it "returns a success response" do
       get :index
