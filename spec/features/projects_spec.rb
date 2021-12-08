@@ -5,6 +5,8 @@ RSpec.feature "Projects", type: :feature do
   #context for the next three tests is in regards to creating
   context "Create new project" do
     before(:each) do
+      user = FactoryBot.create(:user)
+      login_as(user)
       visit new_project_path #visits the page given from this path
       within("form") do
         fill_in "Title", with: "Test title" #puts "Test title" into title form before each test to make sure the title form is always filled
