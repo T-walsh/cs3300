@@ -1,8 +1,9 @@
 class UsersController < ApplicationController
-    before_action :require_login
+    before_action :authenticate_user!, only: %i[new edit create destroy]
 
     def new
         @user = User.new
+        redirect_to new_user_session_path
     end
 
     def create 
@@ -24,10 +25,4 @@ class UsersController < ApplicationController
     def user_params
         params.require(:user).permit(:username, :password)
     end
-
-    def require_login
-        unless current_user
-            redirect_to login_url
-        end
-      end
 end
